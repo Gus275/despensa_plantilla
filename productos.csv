@@ -1,5 +1,13 @@
-sku,nombre,unidad
-1,Producto 1,pieza
-3,Producto 3,pieza
-4,Producto 4,pieza
-5,Producto 5,Kg.
+import openpyxl
+
+# Cargar el archivo de Excel
+workbook = openpyxl.load_workbook('ruta_del_archivo.xlsx')
+
+# Seleccionar la hoja de trabajo
+sheet = workbook.active
+
+# Acceder a una celda específica
+cell = sheet['A1']
+
+# Leer el valor de la celda
+print(cell.value)
