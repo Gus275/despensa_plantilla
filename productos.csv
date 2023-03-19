@@ -1,7 +1,7 @@
 import openpyxl
 
 # Cargar el archivo de Excel
-workbook = openpyxl.load_workbook('ruta_del_archivo.xlsx')
+workbook = openpyxl.load_workbook('productos.xlsx')
 
 # Seleccionar la hoja de trabajo
 sheet = workbook.active
