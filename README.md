@@ -77,6 +77,7 @@ Describir las herramientas de desarrollo utilizadas para el desarrollo del proye
 |1|Problema 1|Causa 1|Alternativa 1|Decisión 1|
 
 
+
 ## 7. Conclusiones:
 
 Redactar las conclusiones del proyecto
